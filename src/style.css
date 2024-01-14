@@ -1,16 +1,16 @@
 body {
     
     justify-content: center;
-
+    position: relative;
     margin: 0;
     background-color: hsl(0, 0%, 0%)
     
 }
 
 .colorDiv { 
-    position: relative;
-    right: -500px;
-    bottom: 500px;
+    position: absolute;
+    right: 0px;
+    bottom: -655px;
     flex-wrap: nowrap;
     height: 400px;
     width: 900px;
@@ -27,9 +27,9 @@ body {
     margin:0;
     border:0px solid rgb(175, 175, 175);
     
-    position: relative;
-    bottom:-20px;
-    left: 0px;
+    position: absolute;
+    bottom:-750px;
+    left: 35px;
     border-radius: 25px;
     background-color: black;
     height: 700px;
