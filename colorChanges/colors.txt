@@ -1,0 +1,30 @@
+
+{
+    "PINK": {
+        "body": "pink", 
+        "calc":"rgb(255, 218, 218)",
+        "lightGrey":"rgb(248, 179, 179)",
+        "orange":"rgb(255, 62, 207)",
+        "restOf":"rgb(255, 140, 226)"
+    },
+
+    "BLACK": {
+        "body": "black",
+        "calc":"black",
+        "lightGrey":"rgb(141, 140, 140)",
+        "orange":"orange",
+        "restOf":"rgb(63, 63, 63)"
+    },
+
+    "RED": {
+        "body": "red"
+        },
+
+    "BLUE": {
+        "body":"blue"
+        },
+
+    "GREEN": {
+        "body":"green"
+        }
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html> 
+    <html lang="en">
+        
+        <head>
+        <title>Creating</title>
+        <link rel="stylesheet" href="./style.css"></style>
+         <meta charset="UTF-8" >
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       
+            
+
+        </head>
+
+        <body>
+           <!-- <style> 
+                td, th {
+                   border:1px ridge black;
+                }
+            </style> -->
+        
+            <div class="calculator"> 
+                <input id="display" readonly>
+                </input>
+                <div  class="main-frame-calculator">
+                    <button class="calc-item light-grey-circle" id="_C" onclick = "clearDisplay()"> C
+                    </button>
+                    <button class="calc-item light-grey-circle" id="±" onclick="turnNegative()" > ±
+                    </button>
+                    <button class="calc-item light-grey-circle" id="_%" onclick="turntoPercent()"> %
+                    </button>
+                    <button class="calc-item orange-circle" id="_/" onclick="appendToDisplay('/')"> ÷
+                    </button>
+                    <button class="calc-item" id="_7" onclick="appendToDisplay('7')"> 7
+                    </button>
+                    <button class="calc-item" id="_8" onclick="appendToDisplay('8')"> 8
+                    </button>
+                    <button class="calc-item" id="_9" onclick="appendToDisplay('9')"> 9
+                    </button>
+                    <button class="calc-item orange-circle" id="_X" onclick="appendToDisplay('*')"> *
+                    </button>
+                    <button class="calc-item" id="_4" onclick="appendToDisplay('4')"> 4
+                    </button>
+                    <button class="calc-item" id="_5" onclick="appendToDisplay('5')"> 5
+                    </button>
+                    <button class="calc-item " id="_6" onclick="appendToDisplay('6')"> 6
+                    </button>
+                    <button class="calc-item orange-circle" id="_-" onclick="appendToDisplay('-')"> -
+                    </button>
+                    <button class="calc-item" id="_1" onclick="appendToDisplay('1')"> 1
+                    </button>
+                    <button class="calc-item" id="_2" onclick="appendToDisplay('2')"> 2
+                    </button>
+                    <button class="calc-item" id="_3" onclick="appendToDisplay('3')"> 3
+                    </button>
+                    <button class="calc-item orange-circle" id="_+" onclick="appendToDisplay('+')"> +
+                    </button>
+                    <button class="calc-item" id="_0" onclick="appendToDisplay('0')"> 0
+                    </button>
+                    <button class="calc-item" id="_." onclick="appendToDisplay('.')"> .
+                    </button>
+                    <button class="calc-item orange-circle" id="_=" onclick="calculate()"> =
+                    </button>
+
+                </div>
+                
+
+            </div>
+
+            <div class="colorDiv">
+                <button onclick="changeColor('GREEN')" style="color:white;background-color: rgb(0, 255, 0);">TURN GREEN</button>
+                <button onclick="changeColor('BLUE')" style="color:white;background-color: rgb(0, 0, 255);">TURN BLUE</button>
+                <button onclick="changeColor('BLACK')" style="color:white;background-color: black;">TURN BLACK </button>
+                <button onclick="changeColor('PINK')" style="color:white;background-color: pink;">TURN PINK</button>
+                <button onclick="changeColor('RED')" style="color:white;background-color: rgb(255, 0, 0);">TURN RED</button>
+            </div>
+            <!-- <table style="background-color:white; height:700px; width:1100px; border: 5px ridge black;"> 
+                <colgroup>
+                    <col></col>
+                    <col style="background-color: yellow; border:12px ridge black;" span="7" />
+                  </colgroup>
+                <tr style=" border:12px ridge black;"> 
+
+                    <th>&nbsp;</th>
+                    <th>MONDAY</th>
+                    <th>CHEWSDAY</th>
+                    <th>WEDNESDAY</th>
+                    <th>THURSDAY</th>
+                    <th>FRIEDAY</th>
+                    <th>SAHTURDAY</th>
+                    <th>SUNDAY</th>
+                 
+
+                </tr>
+                <tr> 
+                    <th >WEATHER</th>
+                    <td>50deg</td>
+                    <td>80deg</td>
+                    <td>250deg</td>
+                    <td>10deg</td>
+                    <td>-40deg</td>
+                    <td>0deg</td>
+                    <td>70deg</td>
+                </tr>
+
+            </table>    -->
+            <script src="index.js" ></script>
+        </body>
+    </html>
